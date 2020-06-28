@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/02-writing-own-redux-store/02-writing-own-redux-store.iml" filepath="$PROJECT_DIR$/02-writing-own-redux-store/02-writing-own-redux-store.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03-ngrx-store-and-components/03-ngrx-store-and-components.iml" filepath="$PROJECT_DIR$/03-ngrx-store-and-components/03-ngrx-store-and-components.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-core-essentials/04-core-essentials.iml" filepath="$PROJECT_DIR$/04-core-essentials/04-core-essentials.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-effects-and-entities/05-effects-and-entities.iml" filepath="$PROJECT_DIR$/05-effects-and-entities/05-effects-and-entities.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-router-state-composition/06-router-state-composition.iml" filepath="$PROJECT_DIR$/06-router-state-composition/06-router-state-composition.iml" />
@@ -13,7 +11,10 @@
       <module fileurl="file://$PROJECT_DIR$/10-state-preload-and-protection-w-guards/10-state-preload-and-protection-w-guards.iml" filepath="$PROJECT_DIR$/10-state-preload-and-protection-w-guards/10-state-preload-and-protection-w-guards.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-observables-and-change-detection/11-observables-and-change-detection.iml" filepath="$PROJECT_DIR$/11-observables-and-change-detection/11-observables-and-change-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/12-unit-testing/12-unit-testing.iml" filepath="$PROJECT_DIR$/12-unit-testing/12-unit-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ngrx-store-effects-app-template/ngrx-store-effects-app-template.iml" filepath="$PROJECT_DIR$/ngrx-store-effects-app-template/ngrx-store-effects-app-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pizza-app/pizza-app.iml" filepath="$PROJECT_DIR$/pizza-app/pizza-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/redux-store-master/redux-store-master.iml" filepath="$PROJECT_DIR$/redux-store-master/redux-store-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/writing-own-redux-store/writing-own-redux-store.iml" filepath="$PROJECT_DIR$/writing-own-redux-store/writing-own-redux-store.iml" />
     </modules>
   </component>
 </project>

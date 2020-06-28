@@ -1,0 +1,52 @@
+.pizza-form ::ng-deep pizza-display {
+  margin: 0 0 35px;
+}
+.pizza-form label {
+  margin: 0 0 35px;
+  display: block;
+}
+.pizza-form label h4 {
+  margin: 0 0 15px;
+}
+.pizza-form__error {
+  padding: 10px;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  align-items: center;
+  background: #aa141b;
+  color: #fff;
+}
+.pizza-form__error p {
+  font-size: 14px;
+  margin: 0;
+}
+.pizza-form__input {
+  border: 0;
+  margin: 0;
+  padding: 15px;
+  outline: 0;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #f5f5f5;
+  border: 1px solid transparent;
+}
+.pizza-form__input.error {
+  border-radius: 4px 4px 0 0;
+  border-color: #b54846;
+}
+.pizza-form__actions {
+  margin: 35px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-form__actions button:last-child {
+  margin-left: auto;
+}
+.pizza-form__list {
+  margin: -20px 0 0;
+}
+
+/*# sourceMappingURL=pizza-form.component.css.map */

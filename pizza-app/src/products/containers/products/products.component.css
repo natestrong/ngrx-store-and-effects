@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.products {
+  position: relative;
+}
+.products__new {
+  margin: -35px -35px 35px;
+  background: #f9f9f9;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products__list pizza-item {
+  background: #fff;
+  flex: 0 0 33%;
+  margin: 0 0 55px;
+  transition: 0.2s all ease;
+}
+.products__list pizza-item:hover {
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=products.component.css.map */

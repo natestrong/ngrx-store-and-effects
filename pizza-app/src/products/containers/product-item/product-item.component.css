@@ -1,0 +1,10 @@
+:host {
+  display: block;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=product-item.component.css.map */

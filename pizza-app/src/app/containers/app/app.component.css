@@ -1,0 +1,52 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.app__header {
+  position: relative;
+  text-align: center;
+  padding: 35px 0;
+}
+.app__logo {
+  width: 75px;
+}
+.app__nav {
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  background: #ab131b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__nav a {
+  color: #fff;
+  padding: 15px 35px;
+  font-family: "cornerstone";
+}
+.app__nav a.active {
+  background: #921217;
+}
+.app__content {
+  margin: 0 auto 50px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  border-radius: 4px;
+}
+.app__container {
+  padding: 35px;
+}
+.app__footer {
+  border-radius: 0 0 4px 4px;
+  background: #0f9675;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.app__footer p {
+  margin: 0;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=app.component.css.map */
