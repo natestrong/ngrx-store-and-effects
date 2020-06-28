@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01-redux-architecture/01-redux-architecture.iml" filepath="$PROJECT_DIR$/01-redux-architecture/01-redux-architecture.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-writing-own-redux-store/02-writing-own-redux-store.iml" filepath="$PROJECT_DIR$/02-writing-own-redux-store/02-writing-own-redux-store.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-ngrx-store-and-components/03-ngrx-store-and-components.iml" filepath="$PROJECT_DIR$/03-ngrx-store-and-components/03-ngrx-store-and-components.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-core-essentials/04-core-essentials.iml" filepath="$PROJECT_DIR$/04-core-essentials/04-core-essentials.iml" />
