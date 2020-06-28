@@ -4,8 +4,8 @@ import {
   forwardRef,
   ChangeDetectionStrategy,
 } from '@angular/core';
-import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { Topping } from '../../models/topping.model';
+import {ControlValueAccessor, NG_VALUE_ACCESSOR} from '@angular/forms';
+import {Topping} from '../../models/topping.model';
 
 const PIZZA_TOPPINGS_ACCESSOR = {
   provide: NG_VALUE_ACCESSOR,
@@ -14,13 +14,13 @@ const PIZZA_TOPPINGS_ACCESSOR = {
 };
 
 @Component({
-  selector: 'pizza-toppings',
+  selector: 'app-pizza-toppings',
   providers: [PIZZA_TOPPINGS_ACCESSOR],
   changeDetection: ChangeDetectionStrategy.OnPush,
   styleUrls: ['pizza-toppings.component.scss'],
   template: `
     <div class="pizza-toppings">
-      <div 
+      <div
         class="pizza-toppings-item"
         *ngFor="let topping of toppings;"
         (click)="selectTopping(topping)"
@@ -36,22 +36,22 @@ export class PizzaToppingsComponent implements ControlValueAccessor {
 
   value: Topping[] = [];
 
-  private onTouch: Function;
-  private onModelChange: Function;
+  private onTouch: () => void;
+  private onModelChange: (value: Topping[]) => void;
 
-  registerOnChange(fn: Function) {
+  registerOnChange(fn: () => void): void {
     this.onModelChange = fn;
   }
 
-  registerOnTouched(fn: Function) {
+  registerOnTouched(fn: () => void): void {
     this.onTouch = fn;
   }
 
-  writeValue(value: Topping[]) {
+  writeValue(value: Topping[]): void {
     this.value = value;
   }
 
-  selectTopping(topping: Topping) {
+  selectTopping(topping: Topping): void {
     if (this.existsInToppings(topping)) {
       this.value = this.value.filter(item => item.id !== topping.id);
     } else {
@@ -61,7 +61,7 @@ export class PizzaToppingsComponent implements ControlValueAccessor {
     this.onModelChange(this.value);
   }
 
-  existsInToppings(topping: Topping) {
+  existsInToppings(topping: Topping): boolean {
     return this.value.some(val => val.id === topping.id);
   }
 }

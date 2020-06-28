@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Routes, RouterModule } from '@angular/router';
-import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {Routes, RouterModule} from '@angular/router';
+import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 // components
 import * as fromComponents from './components';
@@ -40,4 +40,5 @@ export const ROUTES: Routes = [
   declarations: [...fromContainers.containers, ...fromComponents.components],
   exports: [...fromContainers.containers, ...fromComponents.components],
 })
-export class ProductsModule {}
+export class ProductsModule {
+}
